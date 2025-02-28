@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a=2000,b=25,c=5000;
+    if(a>b&&a>c)
+    printf("the greatest mong three numbers is a=%d",a);
+    else if(b>c)
+    printf("the greatest among three numbers is b=%d",b);
+    else
+    printf("the greatest among three numbers is c=%d",c);
+    return 0;
+}
+
+OUTPUT :
+the greatest among three numbers is c=5000
